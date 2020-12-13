@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>Тудушка</title>
+</head>
+
+<body>
+    <div id="formToDo">
+        <h1>Список дел</h1>
+        <hr>
+        <div class="addMenu">
+            <button class="btnAdd">Добавить</button>
+            <div style="overflow: hidden;">
+                <input type="text" maxlength=33 placeholder="Добавить в список дел">
+            </div>
+        </div>
+        <ol class="todos">
+            <li><span class="todo-text">Купить продукты</span><span class="todo-delete"><i
+                        class="fas fa-times"></i></span></li>
+            <li><span class="todo-text">Оплатить счета</span><span class="todo-delete"><i
+                        class="fas fa-times"></i></span></li>
+            <li><span class="todo-text">Вынести мусор</span><span class="todo-delete"><i
+                        class="fas fa-times"></i></span>
+            </li>
+        </ol>
+        <div class="buttons">
+            <button class="btnSave">Сохранить</button>
+            <button class="btnDelete">Удалить все</button>
+        </div>
+    </div>
+
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>
